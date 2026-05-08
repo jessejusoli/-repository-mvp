@@ -1,0 +1,27 @@
+# Operating system and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Dependency and build outputs are intentionally not listed yet because this
+# repository has not selected a language, package manager, runtime, or framework.
+# Add stack-specific ignore rules only after the project chooses a stack.
+
+# Repository MVP guidance folder.
+# Keep this folder tracked while adapting the template. After the project-specific
+# structure is complete, uncomment the next line if you want Git to ignore local
+# template guidance in future commits.
+# .repository-mvp/

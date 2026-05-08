@@ -1,0 +1,46 @@
+name: Repository Hygiene
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  repository-hygiene:
+    name: Repository hygiene
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required files
+        shell: bash
+        run: |
+          set -euo pipefail
+          required_files=(
+            "README.md"
+            "LICENSE.md"
+            "AGENTS.md"
+            "VERTICAL.md"
+            "CHANGELOG.md"
+            "BACKLOG.md"
+            "TASK_MANAGER.md"
+            "docs/README.md"
+            "docs/architecture.md"
+            "docs/api.md"
+            "docs/automation.md"
+          )
+          for file in "${required_files[@]}"; do
+            test -f "$file" || {
+              echo "Missing required file: $file"
+              exit 1
+            }
+          done
+
+      - name: Placeholder for project checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Replace this step with project-specific format, lint, test, build, API contract, and security checks after selecting a stack."

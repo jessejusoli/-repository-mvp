@@ -1,0 +1,19 @@
+stages:
+  - hygiene
+
+repository_hygiene:
+  stage: hygiene
+  image: alpine:3.20
+  script:
+    - test -f README.md
+    - test -f LICENSE.md
+    - test -f AGENTS.md
+    - test -f VERTICAL.md
+    - test -f CHANGELOG.md
+    - test -f BACKLOG.md
+    - test -f TASK_MANAGER.md
+    - test -f docs/README.md
+    - test -f docs/architecture.md
+    - test -f docs/api.md
+    - test -f docs/automation.md
+    - echo "Replace this job with project-specific format, lint, test, build, API contract, and security checks after selecting a stack."
