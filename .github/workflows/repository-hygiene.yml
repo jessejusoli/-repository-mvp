@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   repository-hygiene:
     name: Repository hygiene
@@ -27,6 +30,7 @@ jobs:
             ".github/ISSUE_TEMPLATE/bug_report.md"
             ".github/ISSUE_TEMPLATE/feature_request.md"
             ".github/dependabot.yml"
+            ".repository-mvp/github-settings.md"
             ".repository-mvp/project-start-guide.md"
             "README.md"
             "LICENSE.md"
@@ -42,6 +46,7 @@ jobs:
             "BACKLOG.md"
             "TASK_MANAGER.md"
             "docs/README.md"
+            "docs/compliance.md"
             "docs/documentation-system.md"
             "docs/requirements.md"
             "docs/architecture.md"

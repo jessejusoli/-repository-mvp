@@ -16,6 +16,7 @@ Describe the primary user workflow:
 
 - [Documentation system and anti-duplication rules](documentation-system.md)
 - [Requirements](requirements.md)
+- [Compliance readiness](compliance.md)
 - [Architecture and decision guidance](architecture.md)
 - [API documentation guidance](api.md)
 - [Automation guidance](automation.md)

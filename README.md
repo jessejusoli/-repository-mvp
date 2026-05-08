@@ -34,6 +34,7 @@ This repository is a universal project starter for building software with clear 
 - [Project documentation and user guide](docs/README.md)
 - [Documentation system and anti-duplication rules](docs/documentation-system.md)
 - [Requirements](docs/requirements.md)
+- [Compliance readiness](docs/compliance.md)
 - [Architecture and decision guidance](docs/architecture.md)
 - [API documentation guidance](docs/api.md)
 - [Automation guidance](docs/automation.md)
@@ -74,6 +75,10 @@ This MVP includes guidance and placeholders for:
 - Future Docker Compose and Kubernetes deployment definitions.
 
 The placeholder files intentionally avoid choosing a runtime, package manager, container image, database, cloud provider, or application framework.
+
+## Repository Hardening
+
+Use [.repository-mvp/github-settings.md](.repository-mvp/github-settings.md) after safe project adoption to configure GitHub settings that cannot be fully represented as repository files. Use [docs/compliance.md](docs/compliance.md) only as a readiness and evidence map, not as a compliance claim.
 
 ## License
 

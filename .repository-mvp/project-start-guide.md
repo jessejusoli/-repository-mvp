@@ -195,7 +195,22 @@ Update GitHub templates only with safe placeholders or approved public-safe valu
 
 Keep real personal data out of templates.
 
-## Step 11: Select Stack-Specific Tooling Last
+## Step 11: Configure GitHub Repository Settings
+
+Use [github-settings.md](github-settings.md) to configure settings that cannot be fully represented by repository files.
+
+At minimum:
+
+- protect `main`;
+- require pull requests before merge;
+- require repository hygiene checks;
+- block force pushes;
+- block branch deletion;
+- enable dependency graph and Dependabot alerts when available;
+- enable secret scanning and push protection when available;
+- keep GitHub Actions permissions least-privilege.
+
+## Step 12: Select Stack-Specific Tooling Last
 
 Only after the previous steps are complete, decide whether to add:
 
@@ -213,6 +228,8 @@ Only after the previous steps are complete, decide whether to add:
 
 Document stack decisions in [../docs/architecture.md](../docs/architecture.md) before adding generated or tool-specific files.
 
+Use [../docs/compliance.md](../docs/compliance.md) only as a readiness and evidence map. Do not claim compliance until the project owner has approved scope, evidence, legal review, and audit requirements.
+
 ## Final Safe-Start Checklist
 
 - [ ] License is confirmed.
@@ -225,4 +242,6 @@ Document stack decisions in [../docs/architecture.md](../docs/architecture.md) b
 - [ ] Real credentials are stored only in ignored local files.
 - [ ] `VERTICAL.md` defines the current version path.
 - [ ] `docs/documentation-system.md` was reviewed before adding more docs.
+- [ ] GitHub settings were reviewed with `.repository-mvp/github-settings.md`.
+- [ ] Compliance readiness is tracked without claiming compliance.
 - [ ] Stack-specific files are deferred until the stack is explicitly selected.

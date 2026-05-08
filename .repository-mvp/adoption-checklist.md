@@ -5,6 +5,7 @@ Use this checklist when converting the repository MVP into a project-specific re
 ## Safe Start
 
 - [ ] Read `.repository-mvp/project-start-guide.md`.
+- [ ] Review `.repository-mvp/github-settings.md` and configure GitHub settings manually.
 - [ ] Confirm no real personal data will be committed.
 - [ ] Confirm no real credentials, tokens, private keys, certificates, or production URLs will be committed.
 - [ ] Confirm real credentials will live only in ignored local files such as `.env`, `.env.local`, `.secrets/`, or `.credentials/`.
@@ -34,6 +35,7 @@ Use this checklist when converting the repository MVP into a project-specific re
 - [ ] Review `docs/documentation-system.md` and confirm each source-of-truth boundary.
 - [ ] Update the user guide in `docs/README.md`.
 - [ ] Define initial requirements in `docs/requirements.md`.
+- [ ] Use `docs/compliance.md` only as compliance readiness and evidence mapping, not as a compliance claim.
 - [ ] Record initial architecture decisions in `docs/architecture.md`.
 - [ ] Define API documentation expectations in `docs/api.md`.
 - [ ] Define automation expectations in `docs/automation.md`.
@@ -46,6 +48,8 @@ Use this checklist when converting the repository MVP into a project-specific re
 ## Delivery
 
 - [ ] Choose CI/CD platform ownership.
+- [ ] Protect `main` with pull requests, required checks, and blocked force pushes.
+- [ ] Enable dependency graph, Dependabot alerts, secret scanning, and push protection when available.
 - [ ] Replace placeholder CI/CD commands with real project checks.
 - [ ] Add stack-specific ignore rules after selecting the stack.
 - [ ] Replace GitHub template placeholders when real repository ownership is known.

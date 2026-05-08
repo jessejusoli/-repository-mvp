@@ -54,6 +54,20 @@ Replace placeholders when adapting this repository to a real project.
 | `[CONDUCT_REPORTING_CHANNEL]` | Channel for conduct concerns. |
 | `[ESCALATION_OWNER]` | Person or role responsible for escalations. |
 
+## Compliance Placeholders
+
+| Placeholder | Meaning |
+| --- | --- |
+| `[COMPLIANCE_FRAMEWORK]` | Compliance framework, law, standard, or internal policy being mapped. |
+| `[COMPLIANCE_SCOPE]` | Systems, data, teams, or workflows included in compliance readiness. |
+| `[DATA_TYPES]` | Types of data handled by the project. |
+| `[JURISDICTION]` | Legal or regulatory jurisdiction relevant to the project. |
+| `[COMPLIANCE_OWNER]` | Person, team, or role responsible for compliance readiness. |
+| `[REVIEW_CADENCE]` | How often compliance evidence should be reviewed. |
+| `[COMPLIANCE_FRAMEWORK_REFERENCE]` | Specific control or clause reference. |
+| `[CONTROL_INTENT]` | What the control is intended to achieve. |
+| `[EVIDENCE_LOCATION]` | Approved safe location for evidence. |
+
 ## Replacement Rule
 
 If a placeholder cannot be replaced yet, keep it visible. Do not hide uncertainty behind vague prose.
