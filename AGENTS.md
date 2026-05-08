@@ -9,7 +9,8 @@ Move the project toward the current vertical goal in [VERTICAL.md](VERTICAL.md).
 ## Required Behavior
 
 - Work in en-US for all repository content unless a language-specific documentation folder already exists for the requested translation.
-- Read [README.md](README.md), [VERTICAL.md](VERTICAL.md), [BACKLOG.md](BACKLOG.md), [TASK_MANAGER.md](TASK_MANAGER.md), and [CHANGELOG.md](CHANGELOG.md) before making project changes.
+- Read [README.md](README.md), [VERTICAL.md](VERTICAL.md), [GOVERNANCE.md](GOVERNANCE.md), [CONTRIBUTING.md](CONTRIBUTING.md), [BACKLOG.md](BACKLOG.md), [TASK_MANAGER.md](TASK_MANAGER.md), and [CHANGELOG.md](CHANGELOG.md) before making project changes.
+- Use [docs/documentation-system.md](docs/documentation-system.md) to identify the primary source of truth before adding or moving documentation.
 - Keep changes small, traceable, and aligned with the active task.
 - Update living documentation in the same change that updates behavior, architecture, interfaces, or workflows.
 - Preserve placeholders when the project has not made a decision yet.
@@ -35,10 +36,21 @@ Move the project toward the current vertical goal in [VERTICAL.md](VERTICAL.md).
 
 ## Documentation Expectations
 
+- Documentation ownership rules belong in [docs/documentation-system.md](docs/documentation-system.md).
 - User-facing behavior belongs in [docs/README.md](docs/README.md).
+- Requirements and acceptance criteria belong in [docs/requirements.md](docs/requirements.md).
 - Architecture and major decisions belong in [docs/architecture.md](docs/architecture.md).
 - API contract guidance belongs in [docs/api.md](docs/api.md).
 - Automation, CI/CD, CLI, MCP, RAG, Docker, and Kubernetes guidance belongs in [docs/automation.md](docs/automation.md).
+- Quality and verification expectations belong in [docs/quality.md](docs/quality.md).
+- Release process belongs in [docs/release.md](docs/release.md).
+- Runtime operations belong in [docs/operations.md](docs/operations.md) once something operable exists.
+- Canonical terms belong in [docs/glossary.md](docs/glossary.md).
+- Known risks belong in [docs/risk-register.md](docs/risk-register.md).
+
+## Anti-Duplication Rule
+
+Do not copy the same policy, requirement, roadmap item, task, or decision into multiple files. Update the primary source of truth and add short links from related files only when navigation improves.
 
 ## Translation Policy
 

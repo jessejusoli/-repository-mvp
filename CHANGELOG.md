@@ -9,6 +9,7 @@ The format follows the spirit of Keep a Changelog, and this project should use s
 ### Added
 
 - Initial repository MVP structure for a universal project starter.
+- Universal pre-project organization files for contribution, security, support, governance, conduct, roadmap, requirements, quality, release, operations, glossary, risk tracking, GitHub collaboration, and documentation ownership.
 
 ### Changed
 

@@ -23,19 +23,38 @@ This repository is a universal project starter for building software with clear 
 ## Start Here
 
 1. Read [VERTICAL.md](VERTICAL.md) to understand the current version goal from Point A to Point B.
-2. Read [AGENTS.md](AGENTS.md) before using any AI agent or automation workflow in this repository.
-3. Replace placeholders in this README and the living documentation under [docs/](docs/README.md).
-4. Use [BACKLOG.md](BACKLOG.md), [TASK_MANAGER.md](TASK_MANAGER.md), and [CHANGELOG.md](CHANGELOG.md) to plan, execute, and record changes.
-5. Review [.repository-mvp/](.repository-mvp/README.md) while adapting this template, then decide whether to keep tracking it.
+2. Review [GOVERNANCE.md](GOVERNANCE.md), [SECURITY.md](SECURITY.md), and [SUPPORT.md](SUPPORT.md) before inviting contributors or users.
+3. Read [AGENTS.md](AGENTS.md) before using any AI agent or automation workflow in this repository.
+4. Replace placeholders in this README and the living documentation under [docs/](docs/README.md).
+5. Use [BACKLOG.md](BACKLOG.md), [TASK_MANAGER.md](TASK_MANAGER.md), and [CHANGELOG.md](CHANGELOG.md) to plan, execute, and record changes.
+6. Review [.repository-mvp/](.repository-mvp/README.md) while adapting this template, then decide whether to keep tracking it.
 
 ## Documentation
 
 - [Project documentation and user guide](docs/README.md)
+- [Documentation system and anti-duplication rules](docs/documentation-system.md)
+- [Requirements](docs/requirements.md)
 - [Architecture and decision guidance](docs/architecture.md)
 - [API documentation guidance](docs/api.md)
 - [Automation guidance](docs/automation.md)
+- [Quality](docs/quality.md)
+- [Release process](docs/release.md)
+- [Operations readiness](docs/operations.md)
+- [Glossary](docs/glossary.md)
+- [Risk register](docs/risk-register.md)
 
 Documentation must stay alive with the project. Update the related document in the same change that modifies behavior, architecture, API contracts, operations, or user workflows.
+
+## Project Controls
+
+- [Contributing](CONTRIBUTING.md)
+- [Governance](GOVERNANCE.md)
+- [Security](SECURITY.md)
+- [Support](SUPPORT.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
+- [Roadmap](ROADMAP.md)
+
+Use [docs/documentation-system.md](docs/documentation-system.md) when deciding where information belongs. The README is the front door; it should summarize and link rather than duplicate deep policy or planning content.
 
 ## Repository Principles
 

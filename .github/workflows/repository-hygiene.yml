@@ -20,17 +20,37 @@ jobs:
         run: |
           set -euo pipefail
           required_files=(
+            ".editorconfig"
+            ".gitattributes"
+            ".github/CODEOWNERS"
+            ".github/PULL_REQUEST_TEMPLATE.md"
+            ".github/ISSUE_TEMPLATE/bug_report.md"
+            ".github/ISSUE_TEMPLATE/feature_request.md"
+            ".github/dependabot.yml"
             "README.md"
             "LICENSE.md"
             "AGENTS.md"
             "VERTICAL.md"
+            "CONTRIBUTING.md"
+            "SECURITY.md"
+            "SUPPORT.md"
+            "GOVERNANCE.md"
+            "CODE_OF_CONDUCT.md"
+            "ROADMAP.md"
             "CHANGELOG.md"
             "BACKLOG.md"
             "TASK_MANAGER.md"
             "docs/README.md"
+            "docs/documentation-system.md"
+            "docs/requirements.md"
             "docs/architecture.md"
             "docs/api.md"
             "docs/automation.md"
+            "docs/quality.md"
+            "docs/release.md"
+            "docs/operations.md"
+            "docs/glossary.md"
+            "docs/risk-register.md"
           )
           for file in "${required_files[@]}"; do
             test -f "$file" || {

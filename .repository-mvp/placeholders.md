@@ -12,6 +12,7 @@ Replace placeholders when adapting this repository to a real project.
 | `[OWNER]` | Person, team, or organization accountable for the project. |
 | `[PROJECT_STATUS]` | Discovery, MVP, alpha, beta, production, maintenance, or another explicit state. |
 | `[PRIMARY_AUDIENCE]` | Main users or consumers of the project. |
+| `[YEAR]` | Copyright or release year. |
 
 ## Vertical Placeholders
 
@@ -30,6 +31,27 @@ Replace placeholders when adapting this repository to a real project.
 | `[USER_GUIDE_OVERVIEW]` | Short description of how users should approach the system. |
 | `[MAIN_WORKFLOW]` | The primary workflow supported by the project. |
 | `[SUPPORT_CHANNEL]` | Where users or maintainers ask for help. |
+
+## Ownership And Governance Placeholders
+
+| Placeholder | Meaning |
+| --- | --- |
+| `[PROJECT_OWNER]` | Final accountable owner for project purpose and scope. |
+| `[MAINTAINER]` | Person or team responsible for review and maintenance. |
+| `[SECURITY_OWNER]` | Person or team responsible for vulnerability handling. |
+| `[RELEASE_OWNER]` | Person or team responsible for releases. |
+| `[OPERATIONS_OWNER]` | Person or team responsible for runtime operations. |
+| `[APPROVER]` | Person or role required to approve a decision type. |
+
+## Support And Security Placeholders
+
+| Placeholder | Meaning |
+| --- | --- |
+| `[GENERAL_SUPPORT_CHANNEL]` | Channel for general questions. |
+| `[BUG_REPORT_CHANNEL]` | Channel for bug reports. |
+| `[SECURITY_REPORTING_CHANNEL]` | Private channel for vulnerability reports. |
+| `[CONDUCT_REPORTING_CHANNEL]` | Channel for conduct concerns. |
+| `[ESCALATION_OWNER]` | Person or role responsible for escalations. |
 
 ## Replacement Rule
 

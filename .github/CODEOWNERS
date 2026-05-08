@@ -1,0 +1,10 @@
+# CODEOWNERS
+#
+# This file is intentionally placeholder-only until real GitHub users or teams
+# are selected. Uncomment and replace the examples below after ownership is
+# defined in GOVERNANCE.md.
+#
+# * @GITHUB_OWNER_OR_TEAM
+# /docs/ @DOCS_OWNER_OR_TEAM
+# /SECURITY.md @SECURITY_OWNER_OR_TEAM
+# /.github/ @REPOSITORY_MAINTAINER_OR_TEAM

@@ -23,12 +23,18 @@ The root `.gitignore` includes a commented `.repository-mvp/` rule. Keep this fo
 2. `LICENSE.md`
 3. `VERTICAL.md`
 4. `AGENTS.md`
-5. `docs/README.md`
-6. `BACKLOG.md`
-7. `TASK_MANAGER.md`
-8. `CHANGELOG.md`
-9. CI/CD placeholders
-10. README presentation improvements
+5. `GOVERNANCE.md`
+6. `SECURITY.md`
+7. `SUPPORT.md`
+8. `CONTRIBUTING.md`
+9. `docs/documentation-system.md`
+10. `docs/README.md`
+11. `docs/requirements.md`
+12. `BACKLOG.md`
+13. `TASK_MANAGER.md`
+14. `CHANGELOG.md`
+15. CI/CD placeholders
+16. README presentation improvements
 
 ## Do Not Add Yet
 

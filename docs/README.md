@@ -14,15 +14,23 @@ Describe the primary user workflow:
 
 ## Documentation Map
 
+- [Documentation system and anti-duplication rules](documentation-system.md)
+- [Requirements](requirements.md)
 - [Architecture and decision guidance](architecture.md)
 - [API documentation guidance](api.md)
 - [Automation guidance](automation.md)
+- [Quality](quality.md)
+- [Release process](release.md)
+- [Operations readiness](operations.md)
+- [Glossary](glossary.md)
+- [Risk register](risk-register.md)
 
 ## Documentation Standards
 
 - Keep documentation close to the behavior it describes.
 - Update documentation in the same change that modifies user workflows, architecture, operations, or public interfaces.
 - Prefer concise pages with clear links over duplicated long-form explanations.
+- Use [documentation-system.md](documentation-system.md) to avoid duplicate sources of truth.
 - Keep en-US as the source language.
 - Add translations under folders such as `docs/pt-BR/` only when requested.
 

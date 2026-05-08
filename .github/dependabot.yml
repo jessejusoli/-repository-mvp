@@ -1,0 +1,9 @@
+# Dependabot configuration placeholder.
+#
+# This repository is stack-neutral, so no package ecosystem is enabled yet.
+# After selecting a stack, replace `updates: []` with explicit ecosystems such
+# as github-actions, npm, pip, bundler, cargo, gomod, maven, gradle, docker, or
+# another ecosystem supported by the selected project stack.
+
+version: 2
+updates: []
