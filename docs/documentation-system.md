@@ -10,6 +10,7 @@ Every important fact should have one primary home. Other files may summarize and
 
 | Information Type | Primary Home |
 | --- | --- |
+| Template adoption order and safe-start workflow | [../.repository-mvp/project-start-guide.md](../.repository-mvp/project-start-guide.md) |
 | Project front door and quick navigation | [../README.md](../README.md) |
 | Current version Point A to Point B | [../VERTICAL.md](../VERTICAL.md) |
 | Future direction and milestones | [../ROADMAP.md](../ROADMAP.md) |
@@ -34,6 +35,7 @@ Every important fact should have one primary home. Other files may summarize and
 ## Anti-Duplication Rules
 
 - `README.md` summarizes and links; it does not store deep policy.
+- `.repository-mvp/project-start-guide.md` defines template adoption order; it does not replace project security policy.
 - `VERTICAL.md` defines the current version path; it does not hold roadmap or task lists.
 - `ROADMAP.md` describes future direction; it does not track active work.
 - `BACKLOG.md` lists candidate work; it does not replace requirements.

@@ -32,6 +32,14 @@ Update this table when the project starts releasing versions.
 - Rotate any secret that is accidentally committed.
 - Treat AI prompts, logs, and generated artifacts as possible secret exposure surfaces.
 
+## Sensitive Data And Credentials
+
+Follow [.repository-mvp/project-start-guide.md](.repository-mvp/project-start-guide.md) before adapting this repository to a real project.
+
+Use placeholders, fake examples, or role-based labels in committed files. Do not commit real personal names, personal emails, phone numbers, addresses, document IDs, customer data, production URLs, tokens, private keys, credentials, certificates, or secrets.
+
+Store real credentials only in ignored local files such as `.env`, `.env.local`, `.secrets/`, or `.credentials/`. Commit `.env.example` only when it contains fake values or placeholders.
+
 ## Dependency And Supply Chain Guidance
 
 This repository is stack-neutral today. After a stack is selected:

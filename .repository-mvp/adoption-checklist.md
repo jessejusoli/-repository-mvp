@@ -2,6 +2,14 @@
 
 Use this checklist when converting the repository MVP into a project-specific repository.
 
+## Safe Start
+
+- [ ] Read `.repository-mvp/project-start-guide.md`.
+- [ ] Confirm no real personal data will be committed.
+- [ ] Confirm no real credentials, tokens, private keys, certificates, or production URLs will be committed.
+- [ ] Confirm real credentials will live only in ignored local files such as `.env`, `.env.local`, `.secrets/`, or `.credentials/`.
+- [ ] Confirm `.env.example` contains only fake values or placeholders.
+
 ## Identity
 
 - [ ] Replace `[PROJECT_NAME]`.

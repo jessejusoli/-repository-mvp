@@ -11,6 +11,18 @@ Thumbs.db
 .env.*
 !.env.example
 
+# Local-only secrets and credentials
+.secrets/
+.credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_ed25519
+
 # Logs and temporary files
 *.log
 tmp/

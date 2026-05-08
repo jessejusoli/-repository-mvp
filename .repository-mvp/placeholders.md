@@ -7,6 +7,7 @@ Replace placeholders when adapting this repository to a real project.
 | Placeholder | Meaning |
 | --- | --- |
 | `[PROJECT_NAME]` | Official project name. |
+| `[PROJECT_CODENAME]` | Safe temporary codename when the real project name is confidential. |
 | `[PROJECT_PURPOSE]` | One concise statement explaining what the project exists to do. |
 | `[CURRENT_VERSION]` | Current project version or milestone. |
 | `[OWNER]` | Person, team, or organization accountable for the project. |

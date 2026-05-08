@@ -29,6 +29,7 @@ stages:
               test -f .github/ISSUE_TEMPLATE/bug_report.md
               test -f .github/ISSUE_TEMPLATE/feature_request.md
               test -f .github/dependabot.yml
+              test -f .repository-mvp/project-start-guide.md
               test -f README.md
               test -f LICENSE.md
               test -f AGENTS.md
