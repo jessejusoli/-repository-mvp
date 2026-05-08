@@ -10,7 +10,8 @@ It is intentionally separate from public project documentation. Public documenta
 2. Define the current vertical goal in `VERTICAL.md`.
 3. Select the project stack only when the project purpose requires it.
 4. Add stack-specific files after the stack decision is documented.
-5. Decide whether this guidance should remain tracked.
+5. Use [readme-guide.md](readme-guide.md) to improve the main README with badges, media, links, lists, citations, and GitHub repository signals.
+6. Decide whether this guidance should remain tracked.
 
 ## Tracking Guidance
 
@@ -27,6 +28,7 @@ The root `.gitignore` includes a commented `.repository-mvp/` rule. Keep this fo
 7. `TASK_MANAGER.md`
 8. `CHANGELOG.md`
 9. CI/CD placeholders
+10. README presentation improvements
 
 ## Do Not Add Yet
 

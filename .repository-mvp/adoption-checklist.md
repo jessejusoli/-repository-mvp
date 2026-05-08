@@ -19,6 +19,7 @@ Use this checklist when converting the repository MVP into a project-specific re
 ## Documentation
 
 - [ ] Update the README start-here flow.
+- [ ] Improve the README with useful badges, images, videos, links, lists, citations, and GitHub repository links where they help the reader.
 - [ ] Update the user guide in `docs/README.md`.
 - [ ] Record initial architecture decisions in `docs/architecture.md`.
 - [ ] Define API documentation expectations in `docs/api.md`.

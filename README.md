@@ -1,5 +1,10 @@
 # [PROJECT_NAME]
 
+[![Template](https://img.shields.io/badge/template-universal-blue)](.repository-mvp/README.md)
+[![Documentation](https://img.shields.io/badge/docs-living-brightgreen)](docs/README.md)
+[![AI Agents](https://img.shields.io/badge/agents-ready-purple)](AGENTS.md)
+[![License](https://img.shields.io/badge/license-proprietary-lightgrey)](LICENSE.md)
+
 [PROJECT_PURPOSE]
 
 This repository is a universal project starter for building software with clear structure, living documentation, AI-agent guidance, and disciplined delivery practices. Replace every placeholder before using it as the source of truth for a real project.
